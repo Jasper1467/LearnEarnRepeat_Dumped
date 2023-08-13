@@ -1,0 +1,1408 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans:100,300,400,500,600&display=swap');
+.ad-test[data-v-739f61e1] {
+  background-color: transparent; /* #2f1d58; */
+  width: 400px;
+  height: 300px;
+  margin: 20px 20px 8px;
+  text-align: center;
+}
+.ad-test.tower-ad[data-v-739f61e1] {
+  height: 600px;
+}
+.hidden-placeholder[data-v-739f61e1] {
+  visibility: hidden;
+}
+
+.radial-progress-container {
+  position: relative;
+}
+.radial-progress-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ingame-full-height[data-v-d3f23f60] {
+  height: var(--ingame-height);
+}
+.ingame-width[data-v-d3f23f60] {
+  width: 440px;
+}
+.max-content-width[data-v-d3f23f60] {
+  width: max-content;
+}
+.wide-width[data-v-d3f23f60] {
+  width: 900px;
+}
+.error-state[data-v-d3f23f60] {
+  width: 440px;
+  position: absolute;
+  height: var(--ingame-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-message-text[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  width: 300px;
+  color: white;
+}
+.radial-counter-timeleft-label[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 80px;
+  width: 440px;
+  text-align: center;
+}
+.radial-counter-timeleft-label.smaller[data-v-d3f23f60] {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  top: 34px;
+}
+.radial-counter-unit-label[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7.4px;
+  line-height: 9px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 145px;
+  left: 0;
+  width: 440px;
+  text-align: center;
+}
+.radial-counter-unit-label.smaller[data-v-d3f23f60] {
+  font-size: 7px;
+  top: 70px;
+  left: 0;
+}
+.slow-slide-anim-delayed-enter-active[data-v-d3f23f60] {
+  transition: all 2.5s ease-in;
+  transition-delay: 3s;
+}
+
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+.slow-slide-anim-enter-active[data-v-d3f23f60] {
+  transition: all 2.5s ease-in;
+  /*-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+  /*animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+}
+.slow-slide-anim-leave-active[data-v-d3f23f60] {
+  transition: all 0.5s ease-out;
+  /*-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+  /*animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+}
+.slow-slide-anim-enter-from[data-v-d3f23f60],
+.slow-slide-anim-leave-to[data-v-d3f23f60] {
+  /*transform: scale(0);*/
+  /*opacity: 0;*/
+
+  -webkit-transform: rotateY(100deg);
+  transform: rotateY(100deg);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  opacity: 0;
+}
+
+/*0% {
+        -webkit-transform: rotateY(100deg);
+        transform: rotateY(100deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }*/
+.radial-counter-bg[data-v-d3f23f60] {
+  position: absolute;
+  width: 223px;
+  height: 223px;
+  background-size: cover;
+  background: url("/windows/ingame/dist/assets/circle-bg.ea2d51b4.svg") no-repeat center;
+  transform: translate(50%, 0%);
+}
+.radial-counter-bg.smaller[data-v-d3f23f60] {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background-size: cover;
+  background: url("/windows/ingame/dist/assets/circle-bg-smaller.f988ca25.svg") no-repeat center;
+  transform: initial;
+  padding-left: 335px;
+}
+.bonus-round-title-placeholder[data-v-d3f23f60] {
+  padding-top: 16px;
+}
+.bonus-round-title[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px -4px 20px #aefff7, 0px 4px 20px #da1dda;
+  padding-top: 16px;
+}
+.bonus-round-text[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.resultBoxWrap[data-v-d3f23f60] {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 141px;
+  /*content: "";*/
+  /*display: block;*/
+  /*inset: 0;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/windows/ingame/dist/assets/step2ResultBox.0e1ce5cc.svg");
+}
+.step2TitlePadding[data-v-d3f23f60] {
+  padding-top: 30px;
+}
+.step2ResultBox[data-v-d3f23f60] {
+  text-align: center;
+  justify-content: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.step2GrayLbl[data-v-d3f23f60] {
+  text-align: center;
+  justify-content: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #59585a;
+}
+.times-up-popular[data-v-d3f23f60] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.wrong-box-front[data-v-d3f23f60] {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 400px;
+  height: 126px;
+}
+.box-text[data-v-d3f23f60] {
+  width: 230px;
+  height: 72px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.education-icon[data-v-d3f23f60] {
+  margin: 4px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/ingame/dist/assets/education.1574b04a.svg");
+  width: 76px;
+  height: 66px;
+}
+.centered-button[data-v-d3f23f60] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.step4Size {*/
+/*  font-size: 16px;*/
+/*}*/
+.step-4-close-button[data-v-d3f23f60] {
+  margin-top: -46px;
+}
+.step2Box[data-v-d3f23f60] {
+  animation: 2s ease 0s normal forwards 1 fadein-d3f23f60;
+}
+@keyframes fadein-d3f23f60 {
+0% {
+    opacity: 0;
+}
+66% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+.earned-coin[data-v-d3f23f60] {
+  width: 12px;
+  height: 14px;
+}
+.earned-coin.coin-style[data-v-d3f23f60]:before {
+  padding-bottom: 12px;
+  padding-right: 4px;
+  width: 12px;
+  height: 14px;
+}
+.suggestion-sec[data-v-d3f23f60] {
+  height: 30px;
+  margin: 0 8px;
+  padding: 0 8px;
+  width: 220px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.hkLbl[data-v-886e952a] {
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  /*font-size: 22px; < ORIG*/
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.window-controls-group .hkLbl[data-v-886e952a] {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 3px;
+  font-weight: 400;
+}
+
+.questionText[data-v-61278e6f] {
+  height: 66px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 0 16px 10px;
+  padding-top: 15px;
+}
+
+.option-row[data-v-72552924] {
+  background-image: url("/windows/ingame/dist/assets/option-ingame.9ac8563f.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: auto;
+  width: 400px;
+  /*justify-content: space-between;*/
+  margin-left: auto;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.option-text[data-v-72552924] {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px; /* Was 20px originally */
+  line-height: 22px;
+  color: #ffffff;
+  margin-left: 52px;
+  padding-top: 6px;
+  z-index: 2;
+}
+.option-reported[data-v-72552924] {
+  background-image: url("/windows/ingame/dist/assets/option-ingame-selected.f59cf7ae.svg");
+  /*color: orange;*/
+  /*font-weight: bold;*/
+}
+.option-reported[data-v-72552924]:after {
+  /*content: " (reported)";*/
+}
+
+/** CORRECT ANSWER ANIMATION */
+.correct-answer[data-v-72552924] {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  background-image: url("/windows/ingame/dist/assets/option-ingame-correct.cf39b1c3.svg");
+  animation: scale-in-hor-center-72552924 0.35s ease-in both;
+  animation-delay: 0.9s;
+  background-position-y: 4px;
+  background-repeat: no-repeat;
+}
+.correct-answer-flicker[data-v-72552924] {
+  /*position: absolute;*/
+  /*width: 400px;*/
+  /*height: 50px;*/
+  /*background-image: url("../assets/option-ingame-correct.svg");*/
+  /*animation: scale-in-hor-center 1s linear both;*/
+}
+@keyframes scale-in-hor-center-72552924 {
+0% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    opacity: 1;
+}
+100% {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    opacity: 1;
+}
+}
+.wrong-answer[data-v-72552924] {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  animation: flicker-in-1 1s linear both;
+  background-image: url("/windows/ingame/dist/assets/option-ingame-wrong.71950abd.svg");
+  background-position-y: 4px;
+  background-repeat: no-repeat;
+}
+.active-answer[data-v-72552924] {
+  background-image: url("/windows/ingame/dist/assets/option-ingame-selected.f59cf7ae.svg");
+}
+.active-answer[data-v-72552924]:after {
+  /*content: " (active)";*/
+}
+
+.coin-style[data-v-f6611e5e] {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  transition: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.coin-style[data-v-f6611e5e]:before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url("/windows/ingame/dist/assets/coin.7e54fc6e.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto 4px;
+}
+
+.disabled-cta[data-v-2ef7f6fe] {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}
+div[data-v-2ef7f6fe] {
+  /* Question Ready! Starting in (5) */
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.smaller-text[data-v-2ef7f6fe] {
+  font-size: 16px;
+}
+.suggestion-text[data-v-2ef7f6fe] {
+  align-self: center;
+  margin-left: 8px;
+  /*width: 500px;*/
+
+  margin-right: 16px;
+}
+.suggestion-sep[data-v-2ef7f6fe] {
+  border-right: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+  border-width: 1px;
+  height: 100%;
+  width: 2px;
+  /*background-color: orange;*/
+}
+.suggestion-wrap[data-v-2ef7f6fe] {
+  /* Rectangle 57 */
+  height: 50px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+  border-width: 1px;
+  background: #221f24;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+}
+.suggestion-app-logo[data-v-2ef7f6fe]:before {
+  display: block;
+  content: "";
+  background-image: url("/windows/ingame/dist/assets/logo.33c340a2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 31px;
+  height: 33px;
+  margin-left: 12px;
+  margin-top: 8px;
+  margin-right: 8px;
+
+  animation-delay: 0.75s;
+  animation-name: logoInAnimation;
+  animation-duration: 1.75s;
+  transition-timing-function: ease-in;
+}
+.option-row[data-v-2ef7f6fe] {
+  margin-right: 8px;
+  width: 100%;
+  justify-content: space-between;
+}
+.lives[data-v-2ef7f6fe]:before {
+  display: block;
+  content: "";
+  margin-top: 2px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/windows/ingame/dist/assets/heart.9d370dcd.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+.suggestion-secondary[data-v-2ef7f6fe] {
+  height: 30px;
+  margin: 0 8px;
+  padding: 0 8px;
+}
+
+.lives[data-v-682400f4]:before {
+  display: block;
+  content: "";
+  margin-top: 5px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/windows/ingame/dist/assets/heart.9d370dcd.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+  background-position-y: 2px;
+}
+
+.app-header[data-v-994e28cf] {
+  /*background: rgba(14, 14, 14, 0.2);*/
+  background: #211c21;
+  /*// border: 0.1px solid rgba(255, 255, 255, 0.2); !* FIGMA DEFINES BORDER OF 0.1px WTF !!! *!*/
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+}
+header[data-v-994e28cf] {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+.app-logo[data-v-994e28cf]:before {
+  display: block;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background-image: url("/windows/ingame/dist/assets/logo.33c340a2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+  /*top: 5px;*/
+}
+.top-spacer[data-v-994e28cf] {
+  margin-left: 16px;
+}
+.top-row-sep-small-no-margin[data-v-994e28cf]:before {
+  margin-left: 0;
+}
+.top-row-sep[data-v-994e28cf]:before {
+  display: block;
+  content: "";
+  height: 25px;
+  width: 2px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-image: url("/windows/ingame/dist/assets/top-vertical-sep.ad76269f.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.app-logo svg {*/
+/*  width: 25px;*/
+/*  height: 25px;*/
+/*}*/
+.top-text[data-v-994e28cf] {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.window-controls-group .top-text[data-v-994e28cf] {
+  font-weight: 400;
+}
+.app-title[data-v-994e28cf] {
+  /* Learn.Earn.Repeat */
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.lives[data-v-994e28cf] {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.lives[data-v-994e28cf]:before {
+  display: block;
+  content: "";
+  /*width: 16px;*/
+  /*height: 16px;*/
+  margin-top: 5px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/windows/ingame/dist/assets/heart.9d370dcd.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+.in-game .lives[data-v-994e28cf]:before {
+  margin-top: 6px;
+}
+.user[data-v-994e28cf] {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.user[data-v-994e28cf]:before {
+  display: block;
+  content: "";
+  /*width: 16px;*/
+  /*height: 16px;*/
+  margin-top: 4px;
+  width: 14px;
+  height: 14px;
+
+  background-image: url("/windows/ingame/dist/assets/profile.3c1e0774.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+.coins[data-v-994e28cf] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.coins[data-v-994e28cf]:before {
+  display: block;
+  content: "";
+  /*width: 16px;*/
+  /*height: 16px;*/
+  margin-top: -1px;
+  width: 14px;
+  height: 14px;
+
+  background-image: url("/windows/ingame/dist/assets/coin.7e54fc6e.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+nav[data-v-994e28cf] {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2rem;
+}
+nav a.router-link-exact-active[data-v-994e28cf] {
+  color: var(--color-text);
+}
+nav a.router-link-exact-active[data-v-994e28cf]:hover {
+  background-color: transparent;
+}
+nav a[data-v-994e28cf] {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid var(--color-border);
+}
+nav a[data-v-994e28cf]:first-of-type {
+  border: 0;
+}
+
+.resultBoxWrap[data-v-7e723979] {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  width: 400px;
+  height: 141px;
+  /*content: "";*/
+  /*display: block;*/
+  /*inset: 0;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/windows/ingame/dist/assets/step2ResultBox.0e1ce5cc.svg");
+}
+.rIcon[data-v-7e723979] {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/windows/ingame/dist/assets/collect-icon.4ee12412.svg");
+}
+.step2ResultBox[data-v-7e723979] {
+  justify-content: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.step4Size[data-v-7e723979] {
+  padding: 8px 4px 4px;
+  font-size: 16px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes logoInAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    10% {
+        opacity: 0.7;
+        transform: scale(1.4);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes fadeInBAnimation {
+    0% {
+        opacity: 0;
+        filter: brightness(1) blur(0)
+    }
+    10% {
+        opacity: 0.7;
+        filter: brightness(4) blur(0)
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1) blur(0)
+    }
+}
+@keyframes fadeInBAnimation2 {
+    0% {
+        opacity: 0;
+        filter: brightness(1) blur(20px)
+    }
+    10% {
+        opacity: 1;
+        filter: brightness(2) blur(10px)
+    }
+    100% {
+        opacity: 1;
+        filter: brightness(1) blur(0)
+    }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-8 16:39:46
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * @animation flicker-in-1
+ * ----------------------------------------
+ */
+@-webkit-keyframes flicker-in-1 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    10.1% {
+        opacity: 1;
+    }
+    10.2% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    20.1% {
+        opacity: 1;
+    }
+    20.6% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.1% {
+        opacity: 1;
+    }
+    30.5% {
+        opacity: 1;
+    }
+    30.6% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    45.1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    55.1% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    57.1% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    60.1% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    65.1% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    77.1% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85.1% {
+        opacity: 0;
+    }
+    86% {
+        opacity: 0;
+    }
+    86.1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flicker-in-1 {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    10.1% {
+        opacity: 1;
+    }
+    10.2% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    20.1% {
+        opacity: 1;
+    }
+    20.6% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.1% {
+        opacity: 1;
+    }
+    30.5% {
+        opacity: 1;
+    }
+    30.6% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    45.1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    55.1% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    57.1% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    60.1% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    65.1% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    77.1% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85.1% {
+        opacity: 0;
+    }
+    86% {
+        opacity: 0;
+    }
+    86.1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-12-8 18:59:56
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation swing-in-left-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swing-in-left-fwd {
+    0% {
+        -webkit-transform: rotateY(100deg);
+        transform: rotateY(100deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }
+}
+@keyframes swing-in-left-fwd {
+    0% {
+        -webkit-transform: rotateY(100deg);
+        transform: rotateY(100deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }
+}
+.text {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.btn-back-button {
+    /*Onboarding back button*/
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6723b2 !important;
+    background: none !important;
+    border: 1px solid #6723b2;
+    border-radius: 12px;
+}
+.btn-main-cta {
+    background: linear-gradient(197.05deg, #ff0fbd 35%, #ff8aee 104.93%);
+    border-radius: 12px;
+    padding: 6px 10px 6px 10px;
+    vertical-align: middle;
+    align-self: center;
+    cursor: pointer;
+
+    --hover: #{adjust-hue(#ef6eae, 45deg)};
+}
+.btn-main-cta:focus,
+.btn-main-cta:hover {
+    filter: brightness(1.5);
+}
+.btn-secondary-cta {
+    background: linear-gradient(197.05deg, #4E1C43 35%, #4E2B49 104.93%);
+    opacity: 1;
+    border-radius: 12px;
+    padding: 5px 12px 5px 10px;
+    vertical-align: middle;
+    align-self: center;
+}
+.btn-secondary-cta:hover,
+.btn-secondary-cta:focus {
+    filter: brightness(1.5);
+}
+.whitespace-pre {
+    white-space: pre;
+}
+.overflow-inherit {
+    overflow: inherit !important;
+}
+.flex {
+    display: flex;
+}
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.clickable {
+    cursor: pointer;
+}
+.padLeft16, .padLeft16px {
+    padding-left: 16px;
+}
+.padTop40, .padTop40px {
+    padding-top: 40px;
+}
+.padTop8, .padTop8px {
+    padding-top: 8px;
+}
+.padLeft4, .padLeft4px {
+    padding-left: 4px;
+}
+.padLeft22,
+.padLeft22px {
+    padding-left: 22px;
+}
+.padLeft8 {
+    padding-left: 8px;
+}
+.padLeft8px {
+    padding-left: 8px;
+}
+.padRight8, .padRight8px {
+    padding-right: 8px;
+}
+.text-decoration__underline {
+    text-decoration: underline;
+}
+.cursor__pointer {
+    cursor: pointer;
+}
+.padRight16, .padRight16px {
+    padding-right: 16px;
+}
+.width100 {
+    width: 100%;
+}
+.height100 {
+    height: 100%;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.margin-auto {
+    margin: auto;
+}
+.margin-side-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin-horizontal-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.margin-vertical-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.screen-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    color: #ffffff;
+    padding-left: 8px;
+    overflow: hidden;
+}
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+.border {
+    width: 90%;
+    background: #221f24;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff26;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.padBot10 {
+    padding-bottom: 10px;
+}
+:root {
+    --ingame-height: 860px;
+}
+html {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    /* prevent text selection */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+button {
+    padding: 0;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+/*@import './header.css';*/
+.toggle-icons svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.toggle-icons svg:nth-of-type(1) {
+  opacity: 1;
+}
+.toggle-icons svg:nth-of-type(2) {
+  opacity: 0;
+}
+.toggle-icons.toggled svg:nth-of-type(1) {
+  opacity: 0;
+}
+.toggle-icons.toggled svg:nth-of-type(2) {
+  opacity: 1;
+}
+.app-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  background-color: #211c21;
+}
+.app-header h1 {
+  padding-left: 8px;
+  margin: 0;
+  color: #8d8d8d;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: inherit;
+}
+.app-header .hotkey-text {
+  margin: 0 auto;
+  padding-left: 8px;
+  color: #8d8d8d;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: inherit;
+}
+.app-header .hotkey-text kbd {
+  color: #fff;
+  font-weight: bold;
+}
+.app-header.draggable {
+  user-select: none;
+  cursor: grab;
+}
+.app-header.draggable:active {
+  cursor: grabbing;
+}
+.app-header img {
+  padding-left: 10px;
+  margin: 0;
+}
+.window-controls-group {
+  display: flex;
+  z-index: 1001;
+  margin-left: auto;
+}
+.window-control {
+  background: transparent;
+  transition: background 0.15s ease-in-out;
+}
+.window-control:hover,
+.window-control:active {
+  background: #464646;
+}
+.window-control:before {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+  -webkit-mask: url('/windows/ingame/dist/assets/window_minimize.d2fe2557.svg') center center no-repeat;
+  mask: url('/windows/ingame/dist/assets/window_minimize.d2fe2557.svg') center center no-repeat;
+  background: #a8a8a8;
+  transition: inherit;
+}
+.window-control:hover:before,
+.window-control:active:before {
+  background: #dedede;
+}
+.window-control-minimize:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_minimize.d2fe2557.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_minimize.d2fe2557.svg');
+}
+.window-control-maximize:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_maximize.cc347e28.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_maximize.cc347e28.svg');
+}
+.window-control-restore:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_restore.c7509198.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_restore.c7509198.svg');
+}
+.window-control-settings:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_settings.6643a250.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_settings.6643a250.svg');
+}
+.window-control-support:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_support.32cb4d0f.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_support.32cb4d0f.svg');
+}
+.window-control-close:before {
+  -webkit-mask-image: url('/windows/ingame/dist/assets/window_close.80375e1a.svg');
+  mask-image: url('/windows/ingame/dist/assets/window_close.80375e1a.svg');
+}
+.window-control-close:hover,
+.window-control-close:active {
+  background: #c21913;
+}
+.window-control-close:hover:before,
+.window-control-close:active:before {
+  background: #dedede;
+}
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  margin-top: -3px;
+  width: 200px;
+  right: 0px;
+  background: #464646;
+  padding: 30px 5px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #d5d5d5;
+}
+.tooltip a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #d5d5d5;
+}
+.tooltip hr {
+  border-color: #272727;
+  border-width: 0.5px;
+}
+.tooltip a:visited {
+  color: #d5d5d5;
+}
+.support:hover .tooltip {
+  visibility: visible;
+}
+.socialIcons {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.socialIcons img {
+  vertical-align: middle;
+}
+.socialIcons a {
+  text-decoration: none;
+}
+.in-game {
+    background-color: transparent;
+
+    height: 700px;
+    color: #00006a;
+    overflow: hidden;
+}
+.active-ingame-bg {
+    background: url("/windows/ingame/dist/assets/background.2955d8af.png") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.semi-transparent-bg {
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    /*color: white;*/
+}
+.hotkey-label {
+    background-color: #8d8d8d;
+    border-color: black;
+    border-radius: 4px;
+    border-style: solid;
+}
+.answer-block {
+    width: 300px;
+}
+.timer {
+}
+#inGameAd {
+    /*background-color: darkblue;*/
+    width: 400px;
+    height: 300px;
+}

@@ -1,0 +1,63 @@
+
+input[data-v-8fe87b09] {
+  display: block;
+  width: 110px;
+  margin: 10px 0;
+  padding: 5px;
+
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /*font-size: 16px;*/
+  /*line-height: 19px;*/
+  font-size: 12px;
+  /*line-height: 19px;*/
+  color: #6723b2;
+}
+input.large[data-v-8fe87b09] {
+  width: 310px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6723b2;
+}
+input[placeholder][data-v-8fe87b09],
+[placeholder][data-v-8fe87b09],
+*[placeholder][data-v-8fe87b09] {
+  color: #6723b2 !important;
+}
+.inp input[placeholder][data-v-8fe87b09],
+[placeholder][data-v-8fe87b09],
+*[placeholder][data-v-8fe87b09] {
+  color: #6723b2 !important;
+}
+.inp[data-v-8fe87b09] {
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: 0.1s border-color;
+  color: #6723b2 !important;
+}
+.hkTxt[data-v-8fe87b09] {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+
+  overflow-wrap: normal;
+  width: 100px;
+}
+.hkTxt.large[data-v-8fe87b09] {
+  font-size: 18px;
+  width: 300px;
+}
+
+.hkTitle[data-v-accd408a] {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+  padding-bottom: 15px;
+}

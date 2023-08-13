@@ -1,0 +1,165 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Learn.Earn.Repeat.",
+    "author": "MVC Apps",
+    "version": "1.0.15",
+    "minimum-overwolf-version": "0.170.0",
+    "description": "Learn some new stuff. Use your brain to get free perks, rewards, and more!",
+    "icon": "icons/IconMouseOver.png",
+    "icon_gray": "icons/IconMouseNormal.png",
+    "launcher_icon": "icons/IconMouseNormal.ico",
+    "window_icon": "icons/IconMouseOver.png",
+    "dock_button_title": "Learn.Earn.Repeat."
+  },
+  "permissions": [
+    "Hotkeys",
+    "GameInfo",
+    "Clipboard",
+    "DesktopStreaming"
+  ],
+  "data": {
+    "start_window": "background",
+    "hotkeys": {
+      "learn_earn_repeat_ok": {
+        "title": "Learn Earn Repeat: OK",
+        "action-type": "custom",
+        "default": "Alt+S"
+      },
+      "learn_earn_repeat_cancel": {
+        "title": "Learn Earn Repeat: Cancel",
+        "action-type": "toggle",
+        "default": "Alt+X"
+      },
+      "learn_earn_repeat_a1": {
+        "title": "Learn Earn Repeat: Select option 1",
+        "action-type": "custom",
+        "default": "Alt+1"
+      },
+      "learn_earn_repeat_a2": {
+        "title": "Learn Earn Repeat: Select option 2",
+        "action-type": "custom",
+        "default": "Alt+2"
+      },
+      "learn_earn_repeat_a3": {
+        "title": "Learn Earn Repeat: Select option 3",
+        "action-type": "custom",
+        "default": "Alt+3"
+      },
+      "learn_earn_repeat_a4": {
+        "title": "Learn Earn Repeat: Select option 4",
+        "action-type": "custom",
+        "default": "Alt+4"
+      }
+    },
+    "protocol_override_domains": {
+      "googlesyndication": "http"
+    },
+    "externally_connectable": {
+      "matches": [
+        "http://*.overwolf.com",
+        "https://*.overwolf.com",
+        "https://*.google-analytics.com",
+        "http://*.google-analytics.com",
+        "https://www.googleapis.com",
+        "https://*.clarity.ms"
+      ]
+    },
+    "force_browser": "user",
+    "windows": {
+      "background": {
+        "file": "windows/background/dist/background.html",
+        "background_optimization": false,
+        "is_background_page": true
+      },
+      "desktop": {
+        "file": "windows/desktop/dist/index.html",
+        "desktop_only": true,
+        "native_window": true,
+        "resizable": true,
+        "transparent": false,
+        "override_on_update": true,
+        "size": {
+          "width": 1294,
+          "height": 800
+        },
+        "min_size": {
+          "width": 1284,
+          "height": 800
+        },
+        "show_in_taskbar": true,
+        "grab_focus_on_desktop": false,
+        "optimize_accelerate_rendering": true,
+        "is_alt_f4_blocked": false,
+        "keep_window_location": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "mute": true,
+        "open_dev_tools": false
+      },
+      "in_game": {
+        "override_on_update": true,
+        "is_alt_f4_blocked": false,
+        "disable_restore_animation": true,
+        "block_top_window_navigation": true,
+        "clickthrough": false,
+        "popup_blocker": true,
+        "mute": true,
+        "show_in_taskbar": false,
+        "ignore_keyboard_events": false,
+        "topmost": true,
+        "transparent": true,
+        "keep_window_location": true,
+        "resizable": false,
+        "optimize_accelerate_rendering": true,
+        "file": "windows/ingame/dist/index.html",
+        "size": {
+          "width": 1300,
+          "height": 920
+        },
+        "start_position": {
+          "top": 40,
+          "left": 40
+        }
+      }
+    },
+    "game_targeting": {
+      "type": "all"
+    },
+    "game_events": [
+      21566,
+      22092,
+      21216,
+      7764,
+      5426,
+      21634,
+      8032,
+      10844,
+      10906,
+      10826,
+      21404,
+      7212,
+      21640,
+      7314,
+      21626,
+      8954,
+      10540
+    ],
+    "launch_events": [
+      {
+        "event": "AllGamesLaunch",
+        "event_data": {},
+        "start_minimized": true
+      }
+    ],
+    "developer": {
+      "enable_auto_refresh": false,
+      "reload_delay": 1000,
+      "filter": "*.*"
+    },
+    "disable_dt": false,
+    "disable_log_limit": false,
+    "dev_tools_window_style": false
+  }
+}

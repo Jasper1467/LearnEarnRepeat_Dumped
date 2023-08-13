@@ -1,0 +1,54 @@
+
+.bWidth {
+  width: 280px;
+}
+.btn {
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.btn-small {
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.col {
+  width: 380px;
+}
+.settings {
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+.padBot8 {
+  padding-bottom: 8px;
+}
+.pad8 {
+  padding: 8px;
+}
+.settingsTitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ffffff;
+  padding-left: 8px;
+}

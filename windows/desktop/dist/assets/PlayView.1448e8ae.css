@@ -1,0 +1,420 @@
+
+.lives[data-v-f7b665a8]:before {
+  display: block;
+  content: "";
+  margin-top: 5px;
+  width: 14px;
+  height: 14px;
+  background-image: url("/windows/desktop/dist/assets/heart.9d370dcd.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: inherit;
+  margin-left: 6px;
+  margin-right: 5px;
+  background-position-y: 2px;
+}
+
+.questionText[data-v-492e6175] {
+  height: 66px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 0 16px 10px;
+  padding-top: 15px;
+}
+
+.radial-progress-container {
+  position: relative;
+}
+.radial-progress-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.btn-small {
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.col {
+  width: 380px;
+}
+.settings {
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+.padBot8 {
+  padding-bottom: 8px;
+}
+.pad8 {
+  padding: 8px;
+}
+.settingsTitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ffffff;
+  padding-left: 8px;
+}
+.ingame-full-height {
+  height: var(--ingame-height);
+}
+.ingame-width {
+  width: 440px;
+}
+.max-content-width {
+  width: max-content;
+}
+.wide-width {
+  width: 900px;
+}
+.error-state {
+  /*width: 440px;*/
+  /*position: absolute;*/
+  /*height: var(--ingame-height);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-message-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-size: 18px;
+  /*line-height: 30px;*/
+
+  /*width: 300px;*/
+  color: white;
+  padding-top: 40px;
+}
+.radial-counter-timeleft-label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  color: #d9d9d9;
+  position: absolute;
+  top: 80px;
+  width: 774px; /*796px-22px padding);*/
+  text-align: center;
+}
+.radial-counter-timeleft-label.smaller {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  top: 34px;
+}
+.radial-counter-unit-label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7.4px;
+  line-height: 9px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 145px;
+  left: 0;
+  width: 774px; /*796px-22px padding);*/
+  text-align: center;
+}
+.radial-counter-unit-label.smaller {
+  font-size: 7px;
+  top: 70px;
+  left: 0;
+}
+.slow-slide-anim-delayed-enter-active {
+  transition: all 2.5s ease-in;
+  transition-delay: 3s;
+}
+
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+.slow-slide-anim-enter-active {
+  transition: all 2.5s ease-in;
+  /*-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+  /*animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+}
+.slow-slide-anim-leave-active {
+  transition: all 0.5s ease-out;
+  /*-webkit-animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+  /*animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;*/
+}
+.slow-slide-anim-enter-from,
+.slow-slide-anim-leave-to {
+  /*transform: scale(0);*/
+  /*opacity: 0;*/
+
+  -webkit-transform: rotateY(100deg);
+  transform: rotateY(100deg);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  opacity: 0;
+}
+
+/*0% {
+        -webkit-transform: rotateY(100deg);
+        transform: rotateY(100deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }*/
+.radial-counter-bg {
+  position: absolute;
+  width: 223px;
+  height: 223px;
+  background-size: cover;
+  background: url("./../assets/circle-bg.svg") no-repeat center;
+  transform: translate(50%, 0%);
+}
+.radial-counter-bg.smaller {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  background-size: cover;
+  background: url("./../assets/circle-bg-smaller.svg") no-repeat center;
+  transform: initial;
+  padding-left: 335px;
+}
+.bonus-round-title-placeholder {
+  padding-top: 16px;
+}
+.bonus-round-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px -4px 20px #aefff7, 0px 4px 20px #da1dda;
+  padding-top: 16px;
+}
+.bonus-round-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.resultBoxWrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 141px;
+  /*content: "";*/
+  /*display: block;*/
+  /*inset: 0;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./../assets/step2ResultBox.svg");
+}
+.step2TitlePadding {
+  padding-top: 30px;
+}
+.step2ResultBox {
+  text-align: center;
+  justify-content: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.step2GrayLbl {
+  text-align: center;
+  justify-content: center;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #59585a;
+}
+.times-up-popular {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.wrong-box-front {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 400px;
+  height: 126px;
+}
+.box-text {
+  width: 230px;
+  height: 72px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.education-icon {
+  margin: 4px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/education.1574b04a.svg");
+  width: 76px;
+  height: 66px;
+}
+.centered-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.step4Size {*/
+/*  font-size: 16px;*/
+/*}*/
+.step-4-close-button {
+  margin-top: -46px;
+}
+.step2Box {
+  animation: 2s ease 0s normal forwards 1 fadein;
+}
+@keyframes fadein {
+0% {
+    opacity: 0;
+}
+66% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+.earned-coin {
+  width: 12px;
+  height: 14px;
+}
+.earned-coin.coin-style:before {
+  padding-bottom: 12px;
+  padding-right: 4px;
+  width: 12px;
+  height: 14px;
+}
+.suggestion-sec {
+  height: 30px;
+  margin: 0 8px;
+  padding: 0 8px;
+  width: 220px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.btn-start-now {
+  width: 183px;
+  height: 40px;
+
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+.disabled-btn {
+  filter: saturate(0);
+  cursor: default;
+}
+.disabled-btn:hover,
+.disabled-btn:active,
+.disabled-btn:visited,
+.disabled-btn:focus,
+.disabled-btn:disabled {
+  filter: saturate(0);
+  cursor: default;
+}
+.heart-padding-playview:before {
+  margin-top: 0 !important;
+}
+.playTitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ffffff;
+  /*padding-left: 8px;*/
+}
+.padVert20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+
+/* css class for the transition */
+.fade-enter-active[data-v-35505ae6],
+.fade-leave-active[data-v-35505ae6] {
+  transition: opacity 0.3s;
+}
+.fade-enter[data-v-35505ae6],
+.fade-leave-to[data-v-35505ae6] {
+  opacity: 0;
+}
+.popup-modal[data-v-35505ae6] {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  z-index: 10001;
+}
+.window[data-v-35505ae6] {
+  background: #221f24;
+  border-radius: 12px;
+  border: 1px solid #ffffff26;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.btns[data-v-e295dcad] {
+  padding-top: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cdBtn[data-v-e295dcad] {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0 8px;
+  color: white;
+  height: 36px;
+}

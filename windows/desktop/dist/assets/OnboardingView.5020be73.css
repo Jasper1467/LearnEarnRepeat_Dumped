@@ -1,0 +1,157 @@
+
+.onboarding-step[data-v-845127cd] {
+  z-index: 1;
+  position: relative;
+}
+.imgWrap[data-v-845127cd] {
+  /*position: absolute;*/
+  /*padding-top: 30px;*/
+  /*left: 58px;*/
+  /*top: 195px;*/
+
+  position: absolute;
+  padding-top: 30px;
+  left: 150px;
+  top: var(--onboarding-top-abs-1);
+}
+.imgWrap img[data-v-845127cd] {
+  /*height: 322px;*/
+  width: 513px;
+  border-radius: 12px;
+  filter: grayscale(0.1);
+}
+.imgWrap img[data-v-845127cd]:hover {
+  filter: grayscale(0.85);
+}
+.txtTitle[data-v-845127cd] {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  height: 120px;
+  width: 740px;
+  text-align: center;
+
+  padding-top: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  white-space: pre;
+}
+.txtSubTitle[data-v-845127cd] {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  width: 740px;
+  text-align: center;
+  /*padding-top: 15px;*/
+  padding-bottom: 50px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  /*line-height: 26px;*/
+  color: #8e8e8e;
+  white-space: pre;
+}
+
+.page-icon[data-v-4bd972b5]:before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 4px;
+  margin-right: 8px;
+  width: 10px;
+  height: 10px;
+  background-image: url("/windows/desktop/dist/assets/page.33fbc635.svg");
+}
+.page-icon-selected[data-v-4bd972b5]:before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 4px;
+  margin-right: 8px;
+  width: 10px;
+  height: 10px;
+  background-image: url("/windows/desktop/dist/assets/page-selected.df7cc1dd.svg");
+}
+.pagination-indicators ul[data-v-4bd972b5] {
+  list-style: none;
+  padding: 0;
+}
+
+.imageWrapBackground {
+  width: 580px;
+  margin-left: 115px;
+  height: 442px;
+  top: 195px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  position: absolute;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/onboarding-box.a88f76ad.svg");
+  z-index: -1;
+}
+.route-onboarding #appLeftMenu {
+  display: none;
+}
+.onboarding {
+}
+.bottom-row {
+  top: 550px;
+  position: absolute;
+  width: 740px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.hkWrap {
+  position: absolute;
+  top: var(--onboarding-top-abs);
+  padding-top: 25px;
+  left: 430px;
+}
+.buttons {
+  padding-right: 105px;
+  padding-left: 115px;
+}
+.btn {
+  height: 40px;
+  width: 132px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.btn-label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #6723b2;
+  border: 0;
+  background-color: transparent;
+  appearance: none;
+}
+.signupWrap {
+  width: 540px;
+  margin-left: 140px;
+  height: 340px;
+  position: absolute;
+  top: var(--onboarding-top-abs);
+  left: auto;
+}
+.disabled-button {
+  visibility: hidden;
+}

@@ -1,0 +1,371 @@
+
+.button {
+  transition: 0.3s;
+}
+
+.btn[data-v-77a1d0c5] {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  height: 40px;
+  width: 319px;
+  background: linear-gradient(203.25deg, #ff0dbc 13.89%, #ff7dff 103.43%);
+  border-radius: 12px;
+  margin-bottom: 4px;
+}
+.smaller-text[data-v-77a1d0c5] {
+  font-size: 16px;
+}
+.collected-state[data-v-77a1d0c5] {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  height: 56px;
+  width: 372px;
+  background: linear-gradient(
+    197.05deg,
+    rgba(78, 28, 67, 0.2) 35%,
+    rgba(78, 43, 73, 0.2) 104.93%
+  );
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col-coin.coin-style[data-v-77a1d0c5]:before {
+  margin-bottom: 12px;
+}
+.col-coin[data-v-77a1d0c5] {
+  margin-right: 5px;
+  margin-left: 4px;
+}
+
+.your-answer-label[data-v-23112cc0] {
+  z-index: 1;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/picked-option-frame.559e3693.svg");
+  background-position-y: 6px;
+  width: 106px;
+  height: 30px;
+  padding-top: 15px;
+  margin-left: 16px;
+  padding-left: 26px;
+}
+.education-icon[data-v-23112cc0] {
+  margin: 10px 15px 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/education.1574b04a.svg");
+  width: 57px;
+  height: 50px;
+}
+.questionText[data-v-23112cc0] {
+  height: 66px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.placeholder-150[data-v-23112cc0] {
+  position: relative;
+  height: 150px;
+  padding-bottom: 10px;
+}
+.placeholder-227[data-v-23112cc0] {
+  position: relative;
+  height: 227px;
+  padding-bottom: 10px;
+}
+.items-percentage-placeholder[data-v-23112cc0] {
+  align-self: center;
+  height: 163px;
+  position: relative;
+  width: 319px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.fact-box-wrap[data-v-23112cc0] {
+  align-self: center;
+  position: relative;
+  width: 655px;
+  height: 150px;
+  padding-top: 12px;
+}
+.fact-box[data-v-23112cc0] {
+  position: absolute;
+  width: 655px;
+  height: 150px;
+}
+.fact-box[data-v-23112cc0]:before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 150px;
+  inset: 0;
+  background-image: url("/windows/desktop/dist/assets/fact-box.77847c9c.svg");
+}
+.fact-box-front[data-v-23112cc0] {
+  /*padding-top: 10px;*/
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;*/
+  position: absolute;
+  width: 655px;
+  height: 150px;
+}
+.fact-text[data-v-23112cc0] {
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: center;
+  padding-bottom: 20px;
+  text-align: center;
+  font-style: normal;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.bottom-big-height-placeholder[data-v-23112cc0] {
+  align-self: center;
+  height: 277px;
+}
+.wrong-box-wrap-height-placeholder[data-v-23112cc0] {
+  align-self: center;
+  height: 77px;
+}
+.wrong-box-wrap[data-v-23112cc0] {
+  align-self: center;
+  position: relative;
+  width: 655px;
+  height: 77px;
+  padding-top: 12px;
+}
+.wrong-box-front[data-v-23112cc0] {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 655px;
+  height: 77px;
+}
+.wrong-box[data-v-23112cc0] {
+  position: absolute;
+  width: 655px;
+  height: 77px;
+}
+.wrong-box[data-v-23112cc0]:before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 77px;
+  inset: 0;
+  background-image: url("/windows/desktop/dist/assets/wrong-box.6a3110da.svg");
+}
+.box-text[data-v-23112cc0] {
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 538px;
+  height: 72px;
+  font-style: normal;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #949494;
+}
+.collect-item-option[data-v-23112cc0] {
+  margin-bottom: 10px;
+  background-image: url("/windows/desktop/dist/assets/option.fa9d5e58.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 50px;
+}
+.collect-item-circle-selected[data-v-23112cc0] {
+  margin-bottom: 10px;
+  background-image: url("/windows/desktop/dist/assets/collect-item-selected.5fb99a8e.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 50px;
+
+  animation-name: fadeInAnimation;
+  animation-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.collect-item-circle-wrong[data-v-23112cc0] {
+  margin-bottom: 10px;
+  background-image: url("/windows/desktop/dist/assets/collect-item-wrong.f66c39e5.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 50px;
+
+  animation-name: fadeInBAnimation;
+  animation-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.collect-item-circle-correct[data-v-23112cc0] {
+  margin-bottom: 10px;
+  background-image: url("/windows/desktop/dist/assets/collect-item-correct.1961ccec.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 655px;
+  height: 50px;
+
+  animation-name: fadeInBAnimation;
+  animation-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.collect-item-circle[data-v-23112cc0] {
+  margin-top: 8px;
+  margin-left: 8px;
+  /*background-image: url("./../assets/circle.svg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+  width: 36px;
+  height: 36px;
+}
+.option-text[data-v-23112cc0] {
+  z-index: 1;
+
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item-wrap[data-v-23112cc0] {
+  height: 100%;
+  padding-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.fade-enter-active[data-v-23112cc0] {
+  transition: opacity 0.9s ease;
+}
+.fade-leave-active[data-v-23112cc0] {
+  transition: opacity 0.15s ease;
+}
+.fade-enter-from[data-v-23112cc0],
+.fade-leave-to[data-v-23112cc0] {
+  opacity: 0;
+}
+
+.errorMessage[data-v-bc482364] {
+  color: red;
+}
+
+.wrap[data-v-583c5923] {
+  padding: 0 22px 22px;
+}
+.txt[data-v-583c5923] {
+  padding: 20px;
+  font-family: "Work Sans", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.collect-page-margin {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.n-page-selected:before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 4px;
+  width: 10px;
+  height: 10px;
+  background-image: url("/windows/desktop/dist/assets/page-selected.df7cc1dd.svg");
+}
+.n-page:before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 4px;
+  width: 10px;
+  height: 10px;
+  background-image: url("/windows/desktop/dist/assets/page.33fbc635.svg");
+}
+.collect {
+  overflow-y: scroll;
+  /*height: calc(100% - 50px);*/
+  height: 100%;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+.collect-nav-arrow-next {
+  width: 27px;
+  height: 90vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/nav-right.0e6a5721.svg");
+}
+.disabled {
+  cursor: default !important;
+  filter: grayscale(100%);
+}
+.collect-nav-arrow-prev {
+  width: 27px;
+  height: 90vh;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/windows/desktop/dist/assets/nav-left.8632f4b8.svg");
+}
+.loading {
+  /*NO CLICKS*/
+  pointer-events: none;
+
+  /*ANIMATE SKELETON*/
+  animation: skeleton-loading 0.9s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+0% {
+    filter: opacity(0.5) grayscale(0.2) blur(6px);
+}
+100% {
+    filter: opacity(0.9) grayscale(0.2) blur(6px);
+}
+}

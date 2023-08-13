@@ -1,0 +1,4 @@
+export const kLocalStorageKeys = {
+    HIDE_ONBOARDING: 'HIDE_ONBOARDING',
+    ONBOARDING_SKIPPED: 'ONBOARDING_SKIPPED',
+}
